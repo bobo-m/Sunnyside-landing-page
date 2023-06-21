@@ -128,6 +128,30 @@ body{
     text-transform: uppercase;
     font-size: var(--fs-body);
     font-family: var(--ff-secondary);
+    position: relative;
+}
+.learn-about::before{
+    content: "";
+    /* display: inline-block; */
+    height: 0.6em;
+    width: 110%;
+    position: absolute;
+    bottom: 0;
+    left: -5%;
+    z-index: -1;
+    border-radius: 10px;
+}
+.text-about-1 a::before{
+    background-color:hsla(51, 100%, 49%, 0.3);
+}
+.text-about-2 a::before{
+    background-color: hsla(7, 99%, 70%, 0.3);
+}
+.text-about-1 a:hover::before{
+    background-color: var(--clr-yellow);
+}
+.text-about-2 a:hover::before{
+    background-color: var(--clr-softred);
 }
 /*services section*/
 .services{
