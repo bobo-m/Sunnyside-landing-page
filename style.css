@@ -39,7 +39,7 @@ body{
     min-height: 100vh;
 }
 /*navigation bar*/
-.fa-bars{
+#bars{
     display: none;
 }
 .nav-bar{
@@ -299,7 +299,7 @@ body{
         background-image: url(images/mobile/image-header.jpg);
         min-height: 538px;
     }
-    .fa-bars{
+    #bars{
         display: block;
         position: absolute;
         right: 0;
